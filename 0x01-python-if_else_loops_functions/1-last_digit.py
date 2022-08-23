@@ -13,4 +13,5 @@ elif number > 0 and la < 6:
 elif number < 0:
     print("Last digit of", number, "is", -la, "and is less than 6 and not 0")
 elif number < 6 and number < 0:
-    print("Last digit of", number, "is", -la, "and is less than 6 and not 0\n")
+    print("Last digit of", number, "is", -la, "and is less than 6 and not 0")
+print("\n")
