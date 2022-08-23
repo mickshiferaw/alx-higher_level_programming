@@ -8,7 +8,7 @@ if lastd > 5:
     print("Last digit of", number, "is", lastd, "and is greater than 5")
 elif lastd == 0:
     print("Last digit of", number, "is", lastd, "and is 0")
-elif lastd < 6 and lastd != 0:
+elif lastd < 6:
     print("Last digit of", number, "is", lastd, "and is less than 6 and not 0")
-else:
-    print("Type error")
+elif lastd < 0:
+    print("Last digit of", number, "is", lastd, "and is less than 6 and not 0")
