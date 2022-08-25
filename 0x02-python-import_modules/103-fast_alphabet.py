@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-n = "ABCDEFGHIJKLMNOPQRSTUVWXYZ\n"
+n = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 print(n)
