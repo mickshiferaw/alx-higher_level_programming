@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-n = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-print(n)
+for a in range(65, 91):
+  print(chr(a), end = "")
