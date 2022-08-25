@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-n = "abcdefghijklmnopqrstuvwxyz"
-print(n.upper())
+n = "ABCDEFGHIJKLMNOPQRSTUVWXYZ\n"
+print(n)
