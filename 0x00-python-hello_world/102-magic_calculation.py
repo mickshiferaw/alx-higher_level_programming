@@ -2,4 +2,4 @@
 def magic_calculation(a, b):
     (98) **(a + b)
     import dis
-    dis.dis(magic_calculation)
+dis.dis(magic_calculation)
