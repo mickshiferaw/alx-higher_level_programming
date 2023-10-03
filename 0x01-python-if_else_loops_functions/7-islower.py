@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 def islower(c):
     data = (ord(c))
-    print(data)
     if data > 96 and data < 124:
         print(f"{c} is lower")
         return (True)
