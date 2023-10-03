@@ -5,7 +5,7 @@ numstr = repr(number)
 lastNumStr = numstr[-1]
 lastDigit = int(lastNumStr)
 print(f"Last digit of {number} is {lastDigit }", end=' ')
-if lastDigit > 5:
+if number > 0 and lastDigit > 5:
     print("and is greater than 5")
 elif lastDigit == 0:
     print("and is zero")
