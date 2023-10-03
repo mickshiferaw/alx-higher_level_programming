@@ -9,5 +9,5 @@ if number > 0 and lastDigit > 5:
     print("and is greater than 5")
 elif lastDigit == 0:
     print("and is zero")
-elif lastDigit < 6 and not 0:
+elif number < 0 and  lastDigit < 6 and not 0:
     print("and is less than 6 and not 0")
