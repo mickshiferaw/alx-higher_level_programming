@@ -2,7 +2,9 @@
 def islower(c):
     data = (ord(c))
     print(data)
-    if data > 97 and data < 124:
+    if data > 96 and data < 124:
+        print(f"{c} is lower")
         return (True)
     else:
+        print(f"{c} is upper")
         return (False)
