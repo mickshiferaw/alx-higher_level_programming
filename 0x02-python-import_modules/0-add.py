@@ -1,8 +1,6 @@
 #!/usr/bin/python3
-import add_0
 if __name__ == "__main__":
-    def add(a, b):
-        a = 1 
-        b = 2
-        return (a + b)
-print('a + b = ''{}'.format(1 + 2))
+    from add_0 import add
+    a = 1 
+    b = 2
+print('a + b = ''{}'.format(add(a + b)))
