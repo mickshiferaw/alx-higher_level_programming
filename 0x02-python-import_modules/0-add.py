@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-def add(a, b):
-  print('{}'.format(a + b))
+if __name__ == "__main__":
+    def add(a, b):
+        print('{}'.format(a + b))
