@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-add_0
+__import__("0-add")
 if __name__ == "__main__":
     def add(a, b):
         print('a + b = ''{}'.format(a + b))
