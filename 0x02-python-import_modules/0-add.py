@@ -4,4 +4,6 @@ if __name__ == "__main__":
     def add(a, b):
         a = 1 
         b = 2
+        c = a + b
+        return c
 print('a + b = ''{}'.format(1 + 2))
