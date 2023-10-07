@@ -4,4 +4,3 @@ def element_at(my_list, idx):
         return('none')
     else:
         return("Element at index {:d} is {}".format(idx, my_list[idx]))
-print(element_at([1, 2, 3, 4, 5], 3))
