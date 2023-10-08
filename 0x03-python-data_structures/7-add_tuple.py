@@ -18,6 +18,10 @@ def add_tuple(tuple_a=(), tuple_b=()):
         add1 = newA[0] + newB[0]
         add2 = newA[1] + newB[1]
         return ((add1, add2))
+    elif len(newA) > 2 or len(newB) > 2:
+        add1 = newA[0] + newB[0]
+        add2 = newA[1] + newB[1]
+        return ((add1, add2))
     else:
         add1 = newA[0] + newB[0]
         add2 = newA[1] + newB[1]
