@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def multiple_returns(sentence):
-    if sentence == '':
+    if len(sentence) == 0:
         return("First character: {}".format(None))
     else:
         fSentence = sentence[0]
