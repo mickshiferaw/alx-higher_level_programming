@@ -2,8 +2,8 @@
 def no_c(my_string):
     finalStr = ''
     for x in my_string:
-        if x == 'c' or x== 'C':
-            x=''
+        if x == 'c' or x == 'C':
+            x = ''
         else:
-            finalStr+=str(x)
+            finalStr += str(x)
     return finalStr
