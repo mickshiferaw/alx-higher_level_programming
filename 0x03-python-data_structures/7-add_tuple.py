@@ -8,4 +8,4 @@ def add_tuple(tuple_a=(), tuple_b=()):
     if len(newA) > 2 or len(newB) > 2:
         tuppleAdd1 = newA[0] + newB[0]
         tuppleAdd2 = newA[1] + newB[1]
-    return ((tuppleAdd1,tuppleAdd2))
+    return ((tuppleAdd1, tuppleAdd2))
