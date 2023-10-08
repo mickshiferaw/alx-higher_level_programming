@@ -2,10 +2,19 @@
 def add_tuple(tuple_a=(), tuple_b=()):
     newA = list(tuple_a)
     newB = list(tuple_b)
-    if len(newA) < 2 or len(newB) < 2:
+    if len(newA) < 1:
+        newA.append(0)
+        add1 = newA[0] + newB[0]
+        add2 = newA[0] + newB[1]
+        return ((add1, add2))
+    if len(newB) < 1:
+        newA.append(0)
+        add1 = newA[0] + newB[0]
+        add2 = newA[1] + newB[0]
+        return ((add1, add2))
+    elif len(newA) < 2 or len(newB) < 2:
         newA.append(0)
         newB.append(0)
-    if len(newA) > 2 or len(newB) > 2:
-        tuppleAdd1 = newA[0] + newB[0]
-        tuppleAdd2 = newA[1] + newB[1]
-    return ((tuppleAdd1, tuppleAdd2))
+        add1 = newA[0] + newB[0]
+        add2 = newA[1] + newB[1]
+        return ((add1, add2))
