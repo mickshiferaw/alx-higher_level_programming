@@ -4,7 +4,7 @@ def search_replace(my_list=[], search=None, replace=None):
         return
     if replace is None:
         return my_list
-    new_list = my_list
+    new_list = my_list.copy()
     for x, y in enumerate(new_list):
         if y == search:
             new_list[x] = replace
