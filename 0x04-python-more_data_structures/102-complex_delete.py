@@ -7,4 +7,4 @@ def complex_delete(a_dictionary, value=''):
         if value == x:
             del newdict[x]
     for k, m in newdict.items():
-        return (k, m)
+        print(k, m)
