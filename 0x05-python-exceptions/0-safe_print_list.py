@@ -1,11 +1,10 @@
 #!/usr/bin/python3
 def safe_print_list(my_list=[], x=0):
-    for y in my_list:
+    for y in range(x):
         try:
-            if my_list[y-1] <= x:
-                print(y, end='')
+            print(my_list[y], end='')
         except IndexError:
-            print("fix some errors")
+            print("some error")
             break
-    print()
+    print('')
     return
