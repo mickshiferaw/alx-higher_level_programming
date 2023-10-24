@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""define a class named square."""
+
+
 class Square:
     """
     this is a first class task.
