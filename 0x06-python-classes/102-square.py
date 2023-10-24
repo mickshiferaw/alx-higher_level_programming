@@ -1,3 +1,10 @@
+#!/usr/bin/python3
+""" define a class named square.
+    @size is a private attribute.
+    @area is a method that calculates the area.
+"""
+
+
 class Square:
     """
     this is a first class task.
@@ -24,19 +31,25 @@ class Square:
         return (self.__size * self.__size)
 
     def __eq__(self, another):
+        """define the equal comparision"""
         return self.area() == another.area()
 
     def __ne__(self, another):
+        """define the not equal comparision"""
         return self.area() != another.area()
 
     def __lt__(self, another):
+        """define the less than comparision"""
         return self.area() < another.area()
 
     def __le__(self, another):
+        """define the less than or equal to comparision"""
         return self.area() <= another.area()
 
     def __gr__(self, another):
+        """define the greater than comparision"""
         return self.area() > another.area()
 
     def __gr__(self, another):
+        """define the greater than or equal to comparision"""
         return self.area() >= another.area()
