@@ -13,7 +13,7 @@ class Rectangle:
     number_of_instances: count the number of instances of a class
     """
     def __init__(self, width=0, height=0):
-        type(self).number_of_instances += 1
+        Rectangle.number_of_instances += 1
         self.height = height
         self.width = width
         """this is the getter for height"""
@@ -53,7 +53,9 @@ class Rectangle:
             return 2 * (self.width + self.height)
 
     def __str__(self):
-        """Return # theat equates to the area."""
+        """Return # theat equates to the area.
+            represents the rectangele with # symbol
+        """
         if self.__width == 0 or self.__height == 0:
             return ("")
 
@@ -72,5 +74,5 @@ class Rectangle:
 
     def __del__(self):
         """prints Bye rectangle... when rectangle is deleted"""
-        type(self).number_of_instances -= 1
+        Rectangle.number_of_instances -= 1
         print("Bye rectangle...")
