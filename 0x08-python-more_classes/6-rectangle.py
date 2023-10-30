@@ -13,7 +13,7 @@ class Rectangle:
     number_of_instances: count the number of instances of a class
     """
     def __init__(self, width=0, height=0):
-        Rectangle.number_of_instances += 1
+        type(self).number_of_instances += 1
         self.height = height
         self.width = width
         """this is the getter for height"""
@@ -72,5 +72,5 @@ class Rectangle:
 
     def __del__(self):
         """prints Bye rectangle... when rectangle is deleted"""
-        Rectangle.number_of_instances -= 1
+        type(self).number_of_instances -= 1
         print("Bye rectangle...")
