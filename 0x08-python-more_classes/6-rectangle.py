@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""this argument has two private instances; width and height"""
+"""this argument has two private instances; width and height
+    number_of_instances: counts the number of instances of a class
+"""
 
 
 class Rectangle:
