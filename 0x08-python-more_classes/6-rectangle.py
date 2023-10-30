@@ -5,7 +5,6 @@
 
 
 class Rectangle:
-    number_of_instances = 0
     """this class takes two private instance attribute
     Args:
     width: this is the width of the rectangle
@@ -76,3 +75,4 @@ class Rectangle:
         """prints Bye rectangle... when rectangle is deleted"""
         Rectangle.number_of_instances -= 1
         print("Bye rectangle...")
+    number_of_instances: number_of_instances = 0
