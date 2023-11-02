@@ -1,5 +1,9 @@
 #!/usr/bin/python3
+"""this function prints a square with a the charactor #"""
+
+
 def print_square(size):
+    """this function prints a square with the charactor #"""
     # if not size:
     #     raise TypeError("missing argument")
     if not isinstance(size, int):
