@@ -1,0 +1,21 @@
+    >>> from 0-add_integer import add_integer
+    >>> add_integer(4, 2)
+    6
+    >>> add_integer(5, 2.0)
+    7
+    >>> add_integer(4.0, 4)
+    8
+    >>> add_integer(5.0, 5.0)
+    10
+    >>> add_integer('hi', 5)
+    Traceback (most recent call last):
+        ...
+    TypeError: a must be an integer
+    >>> add_integer(5, 'hi')
+    Traceback (most recent call last):
+        ...
+    TypeError: b must be an integer
+    >>> add_integer('hi', 'hi')
+    Traceback (most recent call last):
+        ...
+    TypeError: a and b must be an integer
