@@ -19,3 +19,5 @@
     Traceback (most recent call last):
         ...
     TypeError: a and b must be an integer
+    >>> add_integer(4, 2)
+    6
