@@ -1,12 +1,8 @@
 #!/usr/bin/python3
-def print_square(size):
-    # if not size:
-    #     raise TypeError("missing argument")
-    if not isinstance(size, int):
-        raise TypeError('size must be an integer')
-    if size < 0:
-        raise ValueError('size must be >= 0')
-    if not isinstance(size, int) and size < 0:
-        raise TypeError('size must be an integer')
-    for x in range(size):
-        print("#" * size)
+def say_my_name(first_name, last_name=""):
+    if not isinstance(first_name, str):
+        raise TypeError("first_name must be a string")
+    if not isinstance(last_name, str):
+        raise TypeError("last_name must be a string")
+    if isinstance(first_name, str) and isinstance(last_name, str):
+        print(f"My name is {first_name} {last_name}")
