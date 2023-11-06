@@ -21,27 +21,14 @@ TypeError: integer_validator() missing 2 required positional arguments: 'name' a
 >>> baseg.area()
 Traceback (most recent call last):
 Exception: area() is not implemented
-Trying to print the area
 >>> baseg = BaseGeometry()
 >>> baseg.area()
 Traceback (most recent call last):
 Exception: area() is not implemented
-Trying to print the area
 >>> baseg = BaseGeometry()
 >>> baseg.area()
 Traceback (most recent call last):
 Exception: area() is not implemented
-Trying to print the area
->>> baseg = BaseGeometry()
->>> baseg.area()
-Traceback (most recent call last):
-Exception: area() is not implemented
-Trying to print the area
->>> baseg = BaseGeometry()
->>> baseg.area()
-Traceback (most recent call last):
-Exception: area() is not implemented
-Trying to print the area
 >>> baseg = BaseGeometry()
 >>> baseg.area()
 Traceback (most recent call last):
