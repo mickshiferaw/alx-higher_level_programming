@@ -2,7 +2,7 @@
 """a function that adds a new attribute to an object if it’s possible"""
 
 
-def add_attr(obj, att, val):
+def add_attribute(objct, attri, val):
     """adds a new attribute to an object if it’s possible
 
     Args:
@@ -12,7 +12,7 @@ def add_attr(obj, att, val):
     Exception:
         TypeError: if the attr can not be added
     """
-    if not hasattr(obj, "__dict__"):
+    if not hasattr(objct, "__dict__"):
         raise TypeError("can't add new attribute")
     else:
-        setattr(obj, att, val)
+        setattr(objct, attri, val)
